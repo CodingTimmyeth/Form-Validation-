@@ -5,8 +5,6 @@ const confirmPassword = document.getElementById('confirm-password')
 const btn = document.querySelector('button')
 const err = document.getElementById('err')
 
-// const failed = btn.disabled
-
 btn.addEventListener('click', () => {
     inputs.forEach((input) => {
         if(input.value === ''){
